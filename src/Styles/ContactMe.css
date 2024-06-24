@@ -1,0 +1,93 @@
+.contact-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    position: relative; /* Added for positioning */
+    top: 300px; /* Moved margin-top to position: relative for better alignment */
+  }
+  .main-contact-form-containter{
+    height: 1024px;
+  }
+  
+  .contact-info {
+    margin-bottom: 20px;
+  }
+  
+  .contact-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: black;
+  }
+  
+  .contact-info p {
+    margin: 0.5rem 0;
+    color: black;
+  }
+  
+  .subscription-form {
+    margin-bottom: 20px;
+  }
+  
+  .subscription-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subscription-form label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .email-input {
+    flex: 1;
+    padding: 12px; /* Increased padding for better touch experience */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none; /* Remove default focus outline */
+    transition: border-color 0.3s ease; /* Smooth border color transition */
+    height: 10px;
+    width: 200px;
+    margin-right: 20px;
+  }
+
+  .input-group input[type="email"]:focus {
+    border-color: #007bff; /* Highlight border on focus */
+  }
+  
+  .submit-btn-1{
+    padding: 12px 20px; /* Increased padding for better touch experience */
+    font-size: 14px;
+    height: 40px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    outline: none; /* Remove default focus outline */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  
+  .input-group button:hover {
+    background-color: #0056b3;
+  }
+  
+  .subscription-success {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+    text-align: center;
+  }
+  

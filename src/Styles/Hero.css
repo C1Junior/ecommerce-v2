@@ -1,0 +1,78 @@
+.main-hero-div {
+  height: 516px;
+  background-image: url("../img/pawel-czerwinski-BFxnx0UHVGM-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+}
+.text-div-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and(max-width: 580px) {
+    .text-div-1 .atmn-div h1{
+      max-width: 380px;
+      font-size: 14px;
+    }
+}
+.WomanImg {
+  padding-left: -400px;
+  transform: scaleX(-1);
+  display: none;
+}
+@media screen and(max-width: 360px) {
+  .text-div-1 .atmn-div h1{
+    max-width: 260px;
+    font-size: 14px;
+  }
+}
+.WomanImg {
+padding-left: -400px;
+transform: scaleX(-1);
+display: none;
+}
+@media (min-width: 1024px) {
+  .WomanImg {
+    display: block;
+  }
+}
+.womens-div {
+  font-weight: 600;
+}
+.atmn-div {
+  font-size: 70px;
+
+  line-height: 1.1;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+.trend-div-main {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+.trend-div {
+  width: 2.5rem;
+  height: 2px;
+  background: red;
+  margin-right: 0.75rem;
+}
+.discover-div {
+  align-self: flex-start;
+  border-bottom: 2px solid black;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: black;
+}

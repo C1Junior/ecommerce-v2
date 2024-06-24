@@ -1,0 +1,142 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-us-txt{
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.loading-section {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.image-section-div {
+  margin-left: auto;
+  margin-right: auto;
+}
+.image-section {
+  padding-bottom: 3rem;
+  padding-top: 8rem;
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.image-text-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.description-img {
+  max-width: 200px;
+}
+.description-img-div {
+  display: flex;
+  flex: 1 1 0%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.txt-div {
+  flex: 1 1 0%;
+  text-align: center;
+}
+.title-div {
+  font-size: 26px;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  max-width: 450px;
+
+  margin-right: auto;
+}
+
+.price-div-1 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  text-align: left;
+  display: flex;
+  color: #ef4444;
+  font-weight: 500;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.description {
+  margin-bottom: 2rem;
+  color: black;
+  text-align: left;
+  max-width: 700px;
+}
+/* Toast Notification */
+.toast-notification {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Fade in and out animations */
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.btn {
+  background-color: black;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: #ffffff;
+}
+@media (min-width: 1024px) {
+  .txt-div {
+    text-align: left;
+  }
+}
+@media (min-width: 1024px) {
+  .description-img-div {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .description-img {
+    max-width: 24rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .image-text-div {
+    flex-direction: row;
+  }
+}
+@media (min-width: 1024px) {
+  .image-section {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}

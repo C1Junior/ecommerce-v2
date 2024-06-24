@@ -1,0 +1,39 @@
+/* Footer styles */
+.footer {
+    position: relative; /* Change to relative to keep footer at bottom */
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    box-sizing: border-box;
+    margin-top: 150px;
+  }
+  
+  .container {
+    width: 90%; /* Adjust width as needed */
+    max-width: 1200px; /* Maximum width of the content */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 20px; /* Add padding inside the container */
+    box-sizing: border-box;
+  }
+  
+  p {
+    color: white;
+    text-align: center;
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 100%; /* Full width on smaller screens */
+      padding: 0 10px; /* Adjust padding as needed */
+    }
+  }
+  @media screen and (min-width: 769px) {
+    .container {
+      width: 100%; /* Full width on smaller screens */
+      padding: 0 10px; /* Adjust padding as needed */
+    }
+  }
+
+  
